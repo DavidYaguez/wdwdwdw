@@ -1,0 +1,104 @@
+body{
+  background-color: blue;
+}
+
+
+#contenedor{
+  height: 400px;
+  width: 200px;
+  background-color: cyan;
+  border-radius: 5%;
+  position: relative;
+  margin: 50px auto;
+  padding-top: 30px;
+}
+
+
+#palo{
+  height: 200px;
+  width: 60px;
+  background-color: #394046;
+  position: relative;
+  margin: 50px auto;
+  bottom: 50px;
+}
+
+#quadrado{
+  height: 350px;
+  width: 2000px;
+  background-color: black;
+  position: relative;
+  margin: 50px auto;
+  bottom: 100px;
+}
+
+
+.red{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: red;
+  margin:auto;
+  top: 10px;
+     }
+
+
+
+.orange{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: orange;
+  margin: 20px auto;
+  top: 10px;
+  position: relative;
+}
+
+.green{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: green;
+  margin: 40px auto;
+  top: 10px;
+}
+
+
+
+
+@media screen and (max-width: 1200px){
+.red{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #BF644B;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin:auto;
+  top: 10px;
+     }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1199px){
+.orange{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color:   #FF6800;
+  margin: 20px auto;
+  top: 10px;
+  position: relative;
+}
+}
+
+@media screen and (max-width: 767px){
+  .green{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color:  #3EFF00;
+    margin: 40px auto;
+    top: 10px;
+  }

@@ -1,0 +1,30 @@
+body{
+background-color: white;
+}
+#cabecera{
+  width: auto;
+  height: 100px;
+  background-color: Magenta;
+}
+#nombre{
+  width: auto;
+  height: 900px;
+}
+#contenedor{
+  background-color: blue;
+  width: 1000px;
+  height: 1250px;
+  margin top: 10;
+  margin: auto;
+}
+p{
+  line-height: 50px;
+  margin-left: 50px;
+  font-size: 40px;
+}
+.boletes{
+  width: 250px;
+  height: 200px;
+  background-color: salmon;
+
+}
